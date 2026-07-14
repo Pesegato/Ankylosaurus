@@ -15,7 +15,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             from(components["java"])
-            groupId = "com.pesegato"
+            groupId = "com.pesegato.a10s"
             artifactId = "a10s-core"
             version = "1.0-SNAPSHOT"
 
