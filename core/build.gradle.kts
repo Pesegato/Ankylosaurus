@@ -18,6 +18,18 @@ publishing {
             groupId = "com.pesegato"
             artifactId = "a10s-core"
             version = "1.0-SNAPSHOT"
+
+            pom {
+                name.set("Ankylosaurus Core")
+                description.set("Core library for Jurassic projects")
+                url.set("https://github.com/pesegato/Ankylosaurus")
+                licenses {
+                    license {
+                        name.set("BSD 3-Clause License")
+                        url.set("https://opensource.org/licenses/BSD-3-Clause")
+                    }
+                }
+            }
         }
     }
     repositories {
